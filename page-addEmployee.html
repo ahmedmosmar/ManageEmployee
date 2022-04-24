@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>codeWebb</title>
+  <link rel="stylesheet" type="text/css" href="new-style/css/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="new-style/css/font-awesome.min.css">
+  <link href="new-style/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row col-side-menu">
+      <div class="col-sm-12 col-md-2 side-menu">
+
+        <h1 class="dashboard">لوحة التحكم</h1>
+        <div class="box-img-dashborad">
+          <i class="fa fa-desktop fa-lg"></i>
+        </div>
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="index.html">
+                <i class="fa fa-home fa-lg icons-menu"></i>
+                <span>الـرئـــــيـسـية</span>
+              </a>
+            </li>
+
+
+
+            <li>
+              <a href="#collapse_Depart" data-toggle="collapse" aria-controls="ture">
+                <i class="fa fa-sitemap fa-lg icons-menu"></i>
+                <span>الأقســــــــام</span>
+              </a>
+            </li>
+            <ul class="collapse collapseable" id="collapse_Depart">
+              <li>
+                <a href="page-addDepartment.html" class="li_collapse">
+                  اضــافة قسم
+                </a>
+              </li>
+
+              <li>
+                <a href="page-showDepartment.html" class="li_collapse">
+                  عرض الأقسام
+                </a>
+              </li>
+            </ul>
+
+            <li>
+              <a href="#collapse_employee" data-toggle="collapse" aria-controls="ture">
+                <i class="fa fa-users fa-lg icons-menu"></i>
+                <span>المـوظفـــين</span>
+              </a>
+            </li>
+            <ul class="collapse collapseable" id="collapse_employee">
+              <li>
+                <a href="page-addEmployee.html" class="li_collapse">
+                  اضــافة موظف
+                </a>
+              </li>
+
+              <li>
+                <a href="page-showEmployee.html" class="li_collapse">
+                  عرض الموظفين
+                </a>
+              </li>
+            </ul>
+
+            <li>
+              <a href="#collapse_salary" data-toggle="collapse" aria-controls="ture">
+                <i class="fa fa-money fa-lg icons-menu"></i>
+                <span>المـرتـــــبات</span>
+              </a>
+            </li>
+            <ul class="collapse collapseable" id="collapse_salary">
+              <li>
+
+                <a href="page-addSalary.html" class="li_collapse">
+                  اضافة المرتبات
+                </a>
+              </li>
+              <li> <a href="" class="li_collapse">
+                  عرض المرتبات
+
+                </a>
+              </li>
+            </ul>
+
+            <li>
+              <a href="#collapse_reset" data-toggle="collapse" aria-controls="ture">
+                <i class="fa fa-file-text-o fa-lg icons-menu"></i>
+                <span>الفـواتــــــيـر</span>
+              </a>
+            </li>
+            <ul class="collapse collapseable" id="collapse_reset">
+              <li>
+                <a href="" class="li_collapse">
+                  اضافة فاتورة
+
+                </a>
+              </li>
+              <li> <a href="" class="li_collapse">
+                  عرض الفـواتير
+
+                </a>
+              </li>
+            </ul>
+
+            <li>
+              <a href="#collapse_attendes" data-toggle="collapse" aria-controls="ture">
+                <i class="fa fa-check fa-lg icons-menu"></i>
+                <span>الحـضـــــــور</span>
+              </a>
+            </li>
+            <ul class="collapse collapseable" id="collapse_attendes">
+              <li>
+                <a href="" class="li_collapse">
+                  اضافة الحـضور
+                </a>
+              </li>
+
+              <li> <a href="" class="li_collapse">
+                  عرض الحـضور
+
+                </a>
+              </li>
+            </ul>
+
+            <li>
+              <a href="#collapse_holidays" data-toggle="collapse" aria-controls="ture">
+                <i class="fa fa-pause fa-lg icons-menu"></i>
+                <span>الاجــــــــازات</span>
+              </a>
+            </li>
+            <ul class="collapse collapseable" id="collapse_holidays">
+              <li>
+                <a href="" class="li_collapse">
+                  اضافة اجازة
+
+                </a>
+              </li>
+              <li> <a href="" class="li_collapse">
+                  عرض الاجازات
+
+                </a>
+              </li>
+            </ul>
+
+            <li>
+              <a href="#collapse_holidays" data-toggle="collapse" aria-controls="ture">
+                <i class="fa fa-comment-o fa-lg icons-menu"></i>
+                <span>الشـكــــاوي</span>
+              </a>
+            </li>
+            <ul class="collapse collapseable" id="collapse_holidays">
+              <li>
+                <a href="" class="li_collapse">
+                  اضافة اجازة
+
+                </a>
+              </li>
+
+              <li> <a href="" class="li_collapse">
+                  عرض الاجازات
+
+                </a>
+              </li>
+            </ul>
+
+            <li>
+              <a href="">
+                <i class="fa fa-bar-chart-o fa-lg icons-menu"></i>
+                <span>التـقــــــارير</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <div class="col-sm-12 col-md-10 content">
+
+        <div class="header">
+          <div class="navbar">
+            <h2 class="heading">نظام ادارة شؤون العاملين</h2>
+            <button class="btn-logout">تسجيل خروج</button>
+          </div>
+        </div>
+        <!-- ======================= Start Html Code for Page Add Employee ===================  -->
+        <h1 class="title-page">اضافة موظف</h1>
+
+        <form action="" method="POST" enctype="multipart/form-data">
+          <div class="row row-content-data">
+
+            <!-- input employee name  -->
+            <div class="col-md-4 box-feiled-input">
+              <label for="employee_name" class="lable-input-data">
+                اسم الموظف
+                <span id="employee_name_error" class=" text-danger" style="visibility: hidden;"></span>
+              </label>
+              <input type="text" class="input-data" name="employee_name" id="employee_name" placeholder="اسم الموظف">
+            </div>
+
+            <!-- input employee age   -->
+            <div class="col-md-4 box-feiled-input">
+              <label for="employee_age" class="lable-input-data">
+                العمر
+                <span id="employee_age_error" class=" text-danger" style="visibility: hidden;"></span>
+              </label>
+              <input type="text" class="input-data" name="employee_age" id="employee_age" placeholder="العمر">
+            </div>
+
+            <!-- input employee address   -->
+            <div class="col-md-4 box-feiled-input">
+              <label for="employee_address" class="lable-input-data">
+                السكن
+                <span id="employee_address_error" class=" text-danger" style="visibility: hidden;"></span>
+              </label>
+              <input type="text" class="input-data" name="employee_address" id="employee_address" placeholder="السكن">
+            </div>
+
+            <!-- input employee phone   -->
+            <div class="col-md-4 box-feiled-input">
+              <label for="employee_phone" class="lable-input-data">
+                رقم الهاتف
+                <span id="employee_phone_error" class=" text-danger" style="visibility: hidden;"></span>
+              </label>
+              <input type="text" class="input-data" name="employee_phone" id="employee_phone" placeholder="رقم الهاتف">
+            </div>
+
+            <!-- input employee image   -->
+            <div class="col-md-4 box-feiled-input">
+              <label for="employee_photo" class="lable-input-data">
+                صورة الموظف
+                <span id="employee_photo_error" class=" text-danger" style="visibility: hidden;"></span>
+              </label>
+              <input type="file" class="input-data" name="employee_photo" id="employee_photo" placeholder="صورة الموظف">
+            </div>
+
+            <!-- input employee salary   -->
+            <div class="col-md-4 box-feiled-input">
+              <label for="employee_sallry" class="lable-input-data">
+                المرتب الثابت
+                <span id="employee_sallry_error" class=" text-danger" style="visibility: hidden"></span>
+              </label>
+              <input type="text" class="input-data" name="employee_sallry" id="employee_sallry"
+                placeholder="المرتب الثابت">
+            </div>
+
+            <!-- select menu employee jop   -->
+            <div class="col-md-4 box-feiled-input">
+              <label for="employee_jop" class="lable-input-data">
+                الوظيفة
+                <span id="employee_jop_error" class=" text-danger" style="visibility: hidden;"></span>
+              </label>
+              <select name="employee_jop" id="" class="select-data input-data">
+                <option value="" selected disabled>-------------</option>
+
+                <option name="employee_jop" value="}">محاسب</option>
+
+              </select>
+            </div>
+
+            <!-- select menu employee work-file   -->
+            <div class="col-md-4 box-feiled-input">
+              <label for="employee_workFile" class="lable-input-data">
+                شهادة العمل
+                <span id="employee_workFile_error" class=" text-danger" style="visibility: hidden;"></span>
+              </label>
+              <select name="employee_workFile" id="" class="select-data input-data">
+                <option value="" selected disabled>-------------</option>
+
+                <option value="">جامعية</option>
+
+              </select>
+            </div>
+
+            <!-- select menu employee function grade   -->
+            <div class="col-md-4 box-feiled-input">
+              <label for="employee_functionGrade" class="lable-input-data">
+                الدرجة الوظيفة
+                <span id="employee_functionGrade_error" class=" text-danger" style="visibility: hidden;"></span>
+              </label>
+              <select name="employee_functionGrade" id="" class="select-data input-data">
+                <option value="" selected disabled>-------------</option>
+
+                <option value="{{$function_g->id}}">مدير</option>
+              </select>
+            </div>
+
+            <!-- select menu employee gander   -->
+            <div class="col-md-4 box-feiled-input">
+              <label for="name" class="lable-input-data">
+                النوع
+              </label>
+              <select name="sex" id="" class="select-data input-data">
+                <option value="1" selected>ذكر</option>
+                <option value="2">انثى</option>
+              </select>
+            </div>
+
+            <!-- select menu employee department   -->
+            <div class="col-md-4 box-feiled-input">
+              <label for="name" class="lable-input-data">
+                القـــسم
+                <span id="employee_department_error" class=" text-danger" style="visibility: hidden"></span>
+              </label>
+              <select name="employee_department" id="" class="select-data input-data">
+                <option value="" selected>-------------</option>
+                <option value="{{$department->id}}">الهندسة</option>
+              </select>
+            </div>
+
+            <!-- input employee number home   -->
+            <div class="col-md-4 box-feiled-input">
+              <label for="employee_numberHome" class="lable-input-data">
+                الرقم الوطني
+                <span id="employee_numberHome_error" class=" text-danger" style="visibility: hidden;"></span>
+              </label>
+              <input type="text" class="input-data" name="employee_numberHome" id="employee_numberHome"
+                placeholder="الرقم الوطني ">
+            </div>
+
+            <!-- button send employee data   -->
+            <button class="send-data" id="btn_store_employee">ارسال البيانات </button>
+
+          </div>
+        </form>
+
+        <!-- ======================= End Html Code for Page Add Employee ===================  -->
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="new-style/js/jquery.min.js"></script>
+  <script src="new-style/js/jquery-3.5.1.min.js"></script>
+  <script src="new-style/css/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

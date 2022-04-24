@@ -1,0 +1,516 @@
+/* ########### Start main  style code  ######################################## */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: changa !important;
+}
+
+@font-face {
+    font-family: changa;
+    src: url(/new-style/changa/Changa-Regular.ttf);
+}
+
+.container-fluid {
+    background-color: #2556;
+}
+
+.content-alert {
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content-alert .alert-success {
+    width: 100%;
+}
+
+h1.title-page {
+    display: block;
+    font-size: 20px;
+    padding: 0px;
+    margin: 10px;
+    text-align: center;
+}
+
+.box-search {
+    margin-top: 0;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.box-search .btn-search {
+    color: #fff;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+.box-search .btn-search:hover {
+    background: #fff;
+    color: white;
+}
+
+.box-search .btn-search:hover a {
+    color: black;
+}
+
+.box-search .btn-search a {
+    color: #fff;
+}
+
+.box-search .btn-search a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.box-search .input-search {
+    width: 40%;
+    padding: 2px 10px;
+    direction: rtl;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.main-color {
+    color: black;
+}
+.sub-color {
+    color: wheat;
+}
+.main-backg {
+    background: wheat;
+}
+.sub-backg {
+    background: wheat;
+}
+.main-border {
+    border: 1px solid wheat;
+}
+.sub-border {
+    border: 1px solid wheat;
+}
+.main-borderR {
+    border-radius: 5px;
+}
+.main-ft-sz {
+    font-size: 16px;
+}
+.main-boxSh {
+    box-shadow: 0px 2px 4px 1px #d0caca;
+}
+
+.btn-update {
+    background: wheat;
+    padding: 5px 10px;
+    transition: all 0.5s ease-in-out;
+}
+.btn-update:hover {
+    background: #fff;
+    color: black;
+}
+.btn-update:hover a {
+    color: black;
+}
+.btn-update a {
+    color: #fff;
+}
+.btn-update a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-delete {
+    background: #ff0000;
+    padding: 2px 10px;
+    border: 1px solid #ff0000;
+}
+.btn-delete:hover a {
+    color: #fff;
+}
+.btn-delete a {
+    color: #fff;
+    text-decoration: none;
+}
+.btn-delete a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+table .btn-more-details {
+    padding: 2px 10px;
+    transition: all 0.5s ease-in-out;
+}
+table .btn-more-details:hover {
+    background: #fff;
+    color: black;
+}
+table .btn-more-details:hover a {
+    color: black;
+}
+table .btn-more-details a {
+    color: #fff;
+}
+table .btn-more-details a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-add {
+    background: #00cccc;
+    padding: 5px 10px;
+    transition: all 0.5s ease-in-out;
+}
+.btn-add:hover {
+    background: #fff;
+    color: #00cccc;
+}
+.btn-add:hover a {
+    color: #00cccc;
+}
+.btn-add a {
+    color: #fff;
+}
+.btn-add a:hover {
+    text-decoration: none;
+    color: #00cccc;
+}
+/*------------- Start table-data style code ---------------------------------- */
+.table-data {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    background: #151717;
+    border-radius: 5px;
+}
+
+.table-data table {
+    width: 100%;
+    text-align: center;
+    direction: rtl;
+}
+
+.table-data table thead {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    background: wheat;
+    color: black;
+}
+
+.table-data table td {
+    padding: 10px 0;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    /* border-spacing: 8px; */
+}
+
+.table-data table td:first-child {
+    border-right: 0px solid white;
+}
+/* ---------------- End table-data style code  ------------------------------------------- */
+
+.row-content-data {
+    padding: 20px 0px;
+    margin: 30px 20px;
+    background-color: #151717;
+    border-radius: 5px;
+    flex-direction: row-reverse;
+}
+
+.row-content-data .send-data {
+    padding: 8px 0;
+    width: 12%;
+    margin: 0 15px;
+    border: 1px solid #0b950c;
+    outline: none;
+    border-radius: 5px;
+    background: #0b950c;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    font-weight: 500;
+    transition: background-color 0.3s ease-in;
+}
+
+.row-content-data .send-data:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.row-content-data .input-data {
+    width: 100%;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* font-size: 18px; */
+    outline: none;
+    border: 0;
+    text-align: right;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    background-color: white;
+}
+
+.row-content-data .box-feiled-input {
+    margin-bottom: 30px;
+}
+
+.row-content-data .lable-input-data {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    float: right;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+/* ########### End main style code  ######################################## */
+
+/* ########### Start side menu style code  ######################################## */
+.row.col-side-menu {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.row.col-side-menu .col-md-2,
+.row.col-side-menu .col-md-10 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row.col-side-menu .col-md-10 {
+    background: #000000bf;
+    color: white;
+    /* min-height: 48vw; */
+}
+
+.row.col-side-menu .side-menu {
+    background-color: #181b1b;
+    color: white;
+    min-height: 48vw;
+}
+
+.row.col-side-menu .side-menu .dashboard {
+    margin: 0px 0px 30px;
+    padding: 25px 0;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    font-size: 2.5vw;
+    border-left: 8px solid #f5deb3;
+    border-right: 8px solid #f5deb3;
+    text-transform: uppercase;
+}
+
+.row.col-side-menu .side-menu .box-img-dashborad {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.row.col-side-menu .side-menu .box-img-dashborad .fa-desktop {
+    font-size: 100px;
+    border-radius: 50%;
+    display: block;
+    color: #f5deb3;
+}
+
+.row.col-side-menu .side-menu .menu {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.side-menu .menu ul {
+    list-style: none;
+    color: white;
+    width: 100%;
+    text-align: right;
+}
+
+.side-menu .menu ul li {
+    margin: 2px 0;
+    font-size: 1em;
+    padding: 15px 0px;
+    font-weight: 700;
+    transition-property: background-color, transform;
+    transition-delay: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    /* width: 100%; */
+
+    /* transition: background-color, transform 5s ease-in; */
+}
+
+.side-menu .menu ul li a {
+      display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    letter-spacing: 1px;
+    width: 100%;
+}
+.side-menu .menu ul li .li_collapse {
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.side-menu .menu ul li .li_collapse .icons-menu {
+    font-size: 18px;
+}
+
+.side-menu .menu ul li:hover {
+    background-color: #f5deb3;
+    color: black;
+    /* transform: translateX(-10px); */
+}
+
+.side-menu .menu .icons-menu {
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+@media(max-width:1000px){
+  .side-menu .menu ul li  i{
+      display: block;
+  }
+  .side-menu .menu ul li{
+      font-size: .8em;
+  }
+}
+
+/* ########### End side menu style code  ######################################## */
+
+/* ########### Start header Navbar style code  ######################################## */
+.header .navbar {
+    background-color: #181b1b;
+    box-shadow: -5px 0 3px 3px black;
+}
+
+.navbar .heading {
+    width: fit-content;
+    color: white;
+    /* background-color: #F5DEB3; */
+    order: 1;
+    font-size: 18px;
+    float: left;
+}
+
+.navbar .btn-logout {
+    width: 10%;
+    padding: 5px 0px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #2a2f2f;
+    outline: 0;
+    border: 0;
+    text-transform: capitalize;
+    box-shadow: 0px 0 5px 0px black;
+    transition: background-color 0.5s ease-in;
+}
+
+.navbar .btn-logout:hover {
+    background-color: #f5deb3;
+    color: black;
+    font-weight: 700;
+}
+/* ########### End header Navbar style code  ######################################## */
+
+
+
+/* ########### Start pages Employee style code  ######################################## */
+.box-details-emp {
+    margin: 30px auto 0;
+    width: 95%;
+    height: auto;
+    padding: 20px 30px;
+    background-color: #151717;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px -1px #8e8d8d70;
+    /* flex-direction: row-reverse; */
+}
+
+.box-details-emp .image-emp {
+    width: 100%;
+    height: 100%;
+}
+.box-details-emp .box-data-details {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    flex-direction: row-reverse;
+}
+
+.box-details-emp .main-box-data {
+    margin-top: 25px;
+}
+.box-details-emp .box-data-details .title,
+.box-details-emp .box-data-details .value {
+    text-align: right;
+    /* background-color: red; */
+    font-size: 18px;
+    padding-top: 10px;
+    /* display: inline-block;  float:right;   margin-left: 20px; */
+}
+.box-details-emp .box-data-details .title {
+    background-color: wheat;
+    border-radius: 0 5px 5px 0;
+}
+
+
+.box-btn-oprations {
+    text-align: left;
+    margin: 100px 30px;
+}
+
+.box-btn-oprations .btn-editData {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 1px solid #0cc;
+    background: #0cc;
+    width: 140px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.box-btn-oprations .btn-editData a {
+    color: #fff;
+}
+.box-btn-oprations .btn-editData a:hover {
+    text-decoration: none;
+}
+.box-btn-oprations .btn-back {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 1px solid #3366ff;
+    background: #3366ff;
+    width: 140px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+/* .box-btn-oprations .btn-back:hover{background: #3366ff;} */
+.box-btn-oprations .btn-back a {
+    color: #fff;
+}
+.box-btn-oprations .btn-back a:hover {
+    text-decoration: none;
+}
+/* ########### End pages Employee style code  ######################################## */
